@@ -1,0 +1,29 @@
+= Learning C++ with Tetris
+
+How to build:
+
+----
+clang++ -std=c++1z main.cpp -g -o tetris  -Wall
+----
+
+
+How to play:
+
+----
+./tetris
+----
+
+It starts immediately.
+
+Following keys are available:
+
+[opts="header"]
+[cols="m,<"]
+|===
+|Cursor left | Move stone to left
+|Cursor right| Move stone to right
+|Cursor down | Move stone down
+|a           | Rotate stone counter clock wise
+|s           | Rotate stone clock wise
+|q           | Quit game
+|===
